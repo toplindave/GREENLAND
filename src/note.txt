@@ -1,0 +1,49 @@
+/* typo colors */
+
+.typo-color{
+
+    black-color: #000000;
+    white-color: #FFFFFF;
+    red-color: #CE0000;
+    yellow-white-5f0: #F6F5F0;
+    green-color-1: #A2B568;
+    green-color-2: #7A9A1B;
+    green-color-3: #46553B;
+    green-color-4: #00A200;
+    yellow-white-5CE: #E9E5CE;
+}
+
+/* bg color*/
+.bg-color{
+    bg-green-color-1: #A2B568;
+    bg-green-color-3: #46553B;
+
+    yellow-white-4cc: #EAE4CC;
+    bg-white: #FFFFFF;
+    yellow-white-5f0: #F6F5F0;
+
+    green-white-1: #E2E4DC;
+    ash: #F1F1F1;
+    blue-white-1: #BDC5D1;
+    green-color-2: #7A9A1B;
+    blue-white-2: #E8ECF2;
+
+    bg-green-color-4: #00A200;
+    bg-red-color: #CE0000;
+
+
+}
+
+
+
+/* gradient */
+#E2E4DC  #EAE4CC 129%
+#E8ECF2  #BDC5D1 178%
+
+
+/* structure */
+App -> context 
+-> store context
+-> data context
+
+movie repo man
