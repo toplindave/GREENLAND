@@ -1,0 +1,31 @@
+// reset styles
+
+* {
+  color: inherit;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Industry";
+  position: relative;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+button {
+  font-family: "Industry";
+}
+a {
+  text-decoration: none;
+}
+hr {
+  border: 0;
+  // border-top: 1px dotted #efefef;
+}
+img {
+  max-width: 100%;
+}
+svg {
+  max-width: 100%;
+}

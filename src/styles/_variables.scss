@@ -1,0 +1,63 @@
+// variable ( theme color)
+
+// $primary :#326dee !default;
+// $secondary:#1ac888 !default;
+// $error: #d32752 !default;
+// $info: #f6c31c !default;
+
+// color palette
+
+$primarycolors: (
+  "primary": #a2b568,
+
+  "primary-1": #7a9a1b,
+  "primary-2": #46553b,
+  "primary-3": #00a200,
+  // "primary-4": #f4fdfa,
+);
+$secondarycolors: (
+  "secondary": #f1f1f1,
+  "secondary-1": #e8ecf2,
+  "secondary-2": #bdc5d1,
+  "secondary-3": #e2e4dc,
+  "secondary-info": #ce0000,
+  "secondary-peach": #fde7e7,
+);
+
+$blackcolors: (
+  "normalblack": #000000,
+);
+
+$whitecolors: (
+  "normalwhite": #ffffff,
+  "white-1": #f6f5f0,
+  "white-2": #e9e5ce,
+  "white-3": #eae4cc,
+);
+
+// spacing
+
+$base-padding: 0.5% !default; //12px
+$base-margin: 1 !default; //1px
+
+// border
+$base-border-thickness: 1px !default;
+$base-border-radius: 8px !default;
+
+// box-shadow
+$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1) !default;
+
+// font size
+$base-font-size: 1rem !default; //16px
+$normal-font-size: $base-font-size * 0.875 !default; //14px
+$font-size-sm: $base-font-size * 0.75 !default; // 12px
+$font-size-lg: $base-font-size * 1.75 !default; //28px
+$font-size-xl: $base-font-size * 2 !default; // 32px
+$font-size-xxl: $base-font-size * 3 !default; // 48px
+
+// font weight
+$base-font-weight: 400 !default;
+$font-weight-medium: 500 !default;
+$font-weight-semi-bold: 600 !default;
+$font-weight-bold: 700 !default;
+$font-weight-bolder: 800 !default;

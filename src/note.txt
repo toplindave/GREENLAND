@@ -1,35 +1,41 @@
 /* typo colors */
 
-.typo-color{
-
-    black-color: #000000;
-    white-color: #FFFFFF;
-    red-color: #CE0000;
-    yellow-white-5f0: #F6F5F0;
     green-color-1: #A2B568;
     green-color-2: #7A9A1B;
     green-color-3: #46553B;
     green-color-4: #00A200;
+
+
+
+
+
+    black-color: #000000;
+
+    white-color: #FFFFFF;
+    yellow-white-5f0: #F6F5F0;
     yellow-white-5CE: #E9E5CE;
+    yellow-white-4cc: #EAE4CC;
+
+    green-white-1: #E2E4DC;
+    blue-white-1: #BDC5D1;
+    blue-white-2: #E8ECF2;
+    ash: #F1F1F1;
+
+
+    bg-red-color: #CE0000;
+
+.typo-color{
+
+    red-color: #CE0000;
 }
 
 /* bg color*/
 .bg-color{
-    bg-green-color-1: #A2B568;
-    bg-green-color-3: #46553B;
 
-    yellow-white-4cc: #EAE4CC;
     bg-white: #FFFFFF;
     yellow-white-5f0: #F6F5F0;
 
-    green-white-1: #E2E4DC;
-    ash: #F1F1F1;
-    blue-white-1: #BDC5D1;
-    green-color-2: #7A9A1B;
-    blue-white-2: #E8ECF2;
 
-    bg-green-color-4: #00A200;
-    bg-red-color: #CE0000;
 
 
 }
@@ -47,3 +53,21 @@ App -> context
 -> data context
 
 movie repo man
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+container 
+display-f 
+justify-space-between

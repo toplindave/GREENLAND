@@ -1,0 +1,17 @@
+.__become-customer-form-input-con {
+  margin-bottom: 10px;
+  width: 100%;
+  //   background: tan;
+  .__become-customer-form-input-label {
+    margin-bottom: 5px;
+  }
+  .__become-customer-form-input {
+    width: 100%;
+    padding: 1.5% 2%;
+    border-radius: 5px;
+    border: 1px solid #a2b568;
+    &:focus {
+      border: 1px solid #a2b568;
+    }
+  }
+}

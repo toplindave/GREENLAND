@@ -1,0 +1,69 @@
+.__fast-and-reliable-container {
+  padding: 18px 2% 60px 2%;
+  background-image: linear-gradient(178deg, #e8ecf2 0%, #bdc5d1 100%);
+  .__fast-and-reliable-container-p {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 53%;
+    line-height: 24px;
+  }
+  .__why-greenland-flex-container {
+    .__why-greenland-flex-left {
+      width: 42%;
+      //   background: #6170a1;
+      .__why-greenland-h2 {
+        margin-bottom: 30px;
+      }
+      .__why-greenland-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 10%;
+        row-gap: 15px;
+        margin-bottom: 40px;
+        .__why-greenland-flex-card {
+          .__why-greenland-flex-card-h4 {
+            margin-bottom: 5px;
+          }
+          .__why-greenland-flex-card-p {
+            line-height: 16px;
+          }
+        }
+      }
+      .__delivery-option-h2 {
+        margin-bottom: 20px;
+      }
+      .__delivery-option-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 10%;
+        row-gap: 15px;
+        margin-bottom: 50px;
+        .__delivery-option-flex-card {
+          .__delivery-option-flex-card-h4 {
+            margin-bottom: 5px;
+          }
+        }
+      }
+      .__delivery-option-btn {
+        width: 55%;
+        padding: 2% 0px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+    }
+    .__why-greenland-flex-right {
+      //   background: #bdc5d1;
+      background-image: linear-gradient(178deg, #e8ecf2 10%, #bdc5d1 100%);
+
+      width: 53%;
+      height: 555px;
+      .__why-greenland-flex-right-img {
+        height: 100%;
+        width: 100%;
+        opacity: 0.9;
+      }
+    }
+  }
+}

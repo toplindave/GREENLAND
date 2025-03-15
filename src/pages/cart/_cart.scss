@@ -1,0 +1,32 @@
+.__cart-container {
+  background: transparent;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 10000000;
+  position: fixed;
+  .__cart-left {
+    width: 60%;
+  }
+  .__cart-right {
+    width: 40%;
+    height: 100vh;
+    padding: 24px 3%;
+    .__cart-basket-header-con {
+      border-bottom: 0.5px solid white;
+      height: 60px;
+      .__cart-basket-cancel-btn {
+        cursor: pointer;
+      }
+    }
+    .__empty-cart {
+      margin-top: 150px;
+      text-align: center;
+    }
+    .__cart-product-con {
+      margin-top: 70px;
+    }
+  }
+}

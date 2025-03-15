@@ -1,0 +1,37 @@
+.__whypickup-container {
+  padding: 71px 2% 81px 2%;
+  margin-top: 40px;
+  margin-bottom: 121px;
+
+  .__whypickup-p {
+    width: 53%;
+    line-height: 24px;
+    margin-bottom: 17px;
+  }
+  .__whypickup-h4 {
+    margin-bottom: 30px;
+  }
+  .__whypickup-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 63%;
+    column-gap: 18%;
+    // background: gainsboro;
+    row-gap: 25px;
+    margin-bottom: 50px;
+    .__whypickup-grid-card {
+      //   background: teal;
+      .__whypickup-grid-card-h4 {
+        margin-bottom: 5px;
+      }
+    }
+  }
+  .__whypickup-btn {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 20%;
+    padding: 8px 0px;
+    cursor: pointer;
+  }
+}
