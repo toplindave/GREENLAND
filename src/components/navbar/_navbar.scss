@@ -37,17 +37,19 @@
     padding-bottom: 9px;
     border-top: 1px solid map-get($secondarycolors, secondary-3);
     border-bottom: 1px solid map-get($secondarycolors, secondary-3);
+
     .__browse-all-product {
       border-radius: 5px;
-      padding: 9px 20px;
-      gap: 4%;
-      width: 15%;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      width: fit-content;
       outline: none;
       border: none;
-      cursor: pointer;
       svg {
         width: 15px;
         height: 15px;
+        margin-right: 15px;
         fill: map-get($whitecolors, white-1);
       }
     }
