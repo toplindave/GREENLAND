@@ -63,43 +63,18 @@
     padding-bottom: 9px;
     border-top: 1px solid map-get($secondarycolors, secondary-3);
     border-bottom: 1px solid map-get($secondarycolors, secondary-3);
-    @include lg {
-      display: flex;
-      justify-content: end;
-    }
-    .__menu-btn {
-      height: 20px;
-      width: 20px;
-      display: none;
-      @include lg {
-        display: block;
-      }
-    }
-    .__nav-down-menu-con {
-      display: none;
-      @include lg {
-        display: block;
-        background: #46553b;
-      }
-    }
     .__browse-all-product {
       border-radius: 5px;
-      // padding: 9px 1.5%;
+      padding: 9px 20px;
       gap: 4%;
       width: 15%;
-      height: 30px;
       outline: none;
       border: none;
       cursor: pointer;
-      @include pad-pro {
-        width: 20%;
-      }
-      @include lg {
-        display: none;
-      }
       svg {
         width: 15px;
         height: 15px;
+        margin-right: 15px;
         fill: map-get($whitecolors, white-1);
         @include pad-pro {
           width: 12px;

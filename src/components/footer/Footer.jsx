@@ -2,6 +2,9 @@ import React from "react";
 import "../../styles/index.scss";
 import { Link } from "react-router-dom";
 import FooterLogo from "./footerLogo.png";
+
+
+
 function Footer() {
   return (
     <div className="__footer-container bg-white-1">

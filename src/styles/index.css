@@ -1,3 +1,88 @@
+@import url("https://use.typekit.net/jtf2ewr.css");
+@font-face {
+  font-family: "Industry";
+  src: url("../fonts/industry/Industry-Light.eot");
+  src: local("Industry Light"), local("Industry-Light"), url("../fonts/industry/Industry-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/industry/Industry-Light.woff") format("woff"), url("../fonts/industry/Industry-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Industry";
+  src: url("../fonts/industry/Industry-Bold.eot");
+  src: local("Industry Bold"), local("Industry-Bold"), url("../fonts/industry/Industry-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/industry/Industry-Bold.woff") format("woff"), url("../fonts/industry/Industry-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Industry";
+  src: url("../fonts/industry/Industry-BoldItalic.eot");
+  src: local("Industry Bold Italic"), local("Industry-BoldItalic"), url("../fonts/industry/Industry-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/industry/Industry-BoldItalic.woff") format("woff"), url("../fonts/industry/Industry-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Industry";
+  src: url("../fonts/industry/Industry-LightItalic.eot");
+  src: local("Industry Light Italic"), local("Industry-LightItalic"), url("../fonts/industry/Industry-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/industry/Industry-LightItalic.woff") format("woff"), url("../fonts/industry/Industry-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Industry-Book";
+  src: url("../fonts/industry/Industry-Book.eot");
+  src: local("Industry Book"), local("Industry-Book"), url("../fonts/industry/Industry-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/industry/Industry-Book.woff") format("woff"), url("../fonts/industry/Industry-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Industry";
+  src: url("../fonts/industry/Industry-BlackItalic.eot");
+  src: local("Industry Black Italic"), local("Industry-BlackItalic"), url("../fonts/industry/Industry-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/industry/Industry-BlackItalic.woff") format("woff"), url("../fonts/industry/Industry-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Industry-BookItalic";
+  src: url("../fonts/industry/Industry-BookItalic.eot");
+  src: local("Industry Book Italic"), local("Industry-BookItalic"), url("../fonts/industry/Industry-BookItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/industry/Industry-BookItalic.woff") format("woff"), url("../fonts/industry/Industry-BookItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Industry-DemiItalic";
+  src: url("../fonts/industry/Industry-DemiItalic.eot");
+  src: local("Industry Demi Italic"), local("Industry-DemiItalic"), url("../fonts/industry/Industry-DemiItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/industry/Industry-DemiItalic.woff") format("woff"), url("../fonts/industry/Industry-DemiItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Industry";
+  src: url("../fonts/industry/Industry-Black.eot");
+  src: local("Industry Black"), local("Industry-Black"), url("../fonts/industry/Industry-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/industry/Industry-Black.woff") format("woff"), url("../fonts/industry/Industry-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Industry";
+  src: url("../fonts/industry/Industry-Medium.eot");
+  src: local("Industry Medium"), local("Industry-Medium"), url("../fonts/industry/Industry-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/industry/Industry-Medium.woff") format("woff"), url("../fonts/industry/Industry-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Industry";
+  src: url("../fonts/industry/Industry-MediumItalic.eot");
+  src: local("Industry Medium Italic"), local("Industry-MediumItalic"), url("../fonts/industry/Industry-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/industry/Industry-MediumItalic.woff") format("woff"), url("../fonts/industry/Industry-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Industry-Demi";
+  src: url("../fonts/industry/Industry-Demi.eot");
+  src: local("Industry Demi"), local("Industry-Demi"), url("../fonts/industry/Industry-Demi.eot?#iefix") format("embedded-opentype"), url("../fonts/industry/Industry-Demi.woff") format("woff"), url("../fonts/industry/Industry-Demi.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   color: inherit;
   margin: 0;
@@ -400,53 +485,19 @@ svg {
   border-top: 1px solid #e2e4dc;
   border-bottom: 1px solid #e2e4dc;
 }
-@media screen and (max-width: 960px) and (min-width: 720px) {
-  .__navbarr .__nav-down {
-    display: flex;
-    justify-content: end;
-  }
-}
-.__navbarr .__nav-down .__menu-btn {
-  height: 20px;
-  width: 20px;
-  display: none;
-}
-@media screen and (max-width: 960px) and (min-width: 720px) {
-  .__navbarr .__nav-down .__menu-btn {
-    display: block;
-  }
-}
-.__navbarr .__nav-down .__nav-down-menu-con {
-  display: none;
-}
-@media screen and (max-width: 960px) and (min-width: 720px) {
-  .__navbarr .__nav-down .__nav-down-menu-con {
-    display: block;
-    background: #46553b;
-  }
-}
 .__navbarr .__nav-down .__browse-all-product {
   border-radius: 5px;
+  padding: 9px 20px;
   gap: 4%;
   width: 15%;
-  height: 30px;
   outline: none;
   border: none;
   cursor: pointer;
 }
-@media screen and (max-width: 1024px) and (min-width: 960px) {
-  .__navbarr .__nav-down .__browse-all-product {
-    width: 20%;
-  }
-}
-@media screen and (max-width: 960px) and (min-width: 720px) {
-  .__navbarr .__nav-down .__browse-all-product {
-    display: none;
-  }
-}
 .__navbarr .__nav-down .__browse-all-product svg {
   width: 15px;
   height: 15px;
+  margin-right: 15px;
   fill: #f6f5f0;
 }
 @media screen and (max-width: 1024px) and (min-width: 960px) {
@@ -684,6 +735,8 @@ svg {
   margin-bottom: 145px;
 }
 .__footer-container .__footer-container-h1 {
+  font-family: "Aviano";
+  font-size: 150px;
   margin-bottom: 152px;
   text-align: center;
 }

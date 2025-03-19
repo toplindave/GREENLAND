@@ -11,7 +11,7 @@ import Navbar from "../../components/navbar/Navbar";
 function Home() {
   return (
     <div className="__home-page ">
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="container">
         <div className="__home-intro display-f justify-space-between">
           <div className="__home-intro-left">
@@ -61,9 +61,7 @@ function Home() {
           <WhyPickUp />
         </section>
       </div>
-      <section className="__footer-section">
-        <Footer />
-      </section>
+      
     </div>
   );
 }

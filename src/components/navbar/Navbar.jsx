@@ -15,11 +15,6 @@ function Navbar() {
     setShowcart((prev) => !prev);
   }
   console.log(showCart);
-
-  function toogleMenu() {
-    setShowMenu((prevState) => !prevState);
-  }
-
   return (
     <>
       <div className=" __navbarr  ">
@@ -40,9 +35,7 @@ function Navbar() {
           </div>
         </div>
         <div className="__nav-down display-f justify-space-between align-center container">
-          <div className="__menu-btn bg-primary-2" onClick={toogleMenu}></div>
-
-          <button className="__browse-all-product bg-primary display-f justify-space-around align-center">
+          <button className="__browse-all-product bg-primary display-f  align-center">
             <Browse />
             <p className="text-white-1 font-weight-medium normal-font-text">
               Browse All Products
