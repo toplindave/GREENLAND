@@ -4,6 +4,8 @@ import BecomeCustomer from "./pages/becomeCustomer/BecomeCustomer";
 import Cart from "./pages/cart/Cart";
 import CheckOut from "./pages/checkout/CheckOut";
 import Home from "./pages/home/Home";
+import OrderConfirmation from "./pages/orderConfirmation/OrderConfirmation";
+import OrderInfo from "./pages/orderInfo/OrderInfo";
 import ProductDetails from "./pages/productdetails/ProductDetails";
 // import Products from "./pages/products/Products";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -18,6 +20,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/become-customer" element={<BecomeCustomer />} />
           <Route path="/checkout" element={<CheckOut />} />
+          <Route path="/order-info" element={<OrderInfo />} />
+          <Route path="/order-confirmation" element={<OrderConfirmation />} />
           <Route path="/:id" element={<ProductDetails />} />
           <Route path="/cart" element={<Cart />} />
         </Routes>

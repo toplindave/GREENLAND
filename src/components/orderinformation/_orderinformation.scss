@@ -1,0 +1,78 @@
+.__order-infomation {
+  .__order-infomation-con {
+    border-top: 1px solid #a2b568;
+    border-bottom: 1px solid #a2b568;
+    padding: 17px 3%;
+    margin-bottom: 20px;
+    .__order-infomation-and-date {
+      margin-bottom: 67px;
+    }
+    .__order-infomation-order-id {
+      width: 60%;
+      .__order-infomation-id-h5 {
+        position: relative;
+        // background: tan;
+        &::before {
+          content: "";
+          background: #000000;
+          height: 1px;
+          width: 100%;
+          position: absolute;
+          bottom: -2px;
+        }
+      }
+    }
+  }
+  .__recap-order-con {
+    border-bottom: 1px solid #a2b568;
+
+    .__recap-order-h3 {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+    .__recap-order-product-grid-con {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      margin-bottom: 20px;
+      padding: 5% 3%;
+      column-gap: 4%;
+      row-gap: 4%;
+      .__recap-order-product-grid-card {
+        .__recap-order-product-grid-card-img-con {
+          width: 95px;
+          height: 100px;
+          border: 1px solid #e2e4dc;
+          position: relative;
+          .__recap-order-product-grid-card-img {
+            width: 100%;
+            height: 100%;
+          }
+          .__recap-order-product-grid-card-qty {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+        .__recap-order-product-grid-card-title {
+          margin-top: 5px;
+          width: 95px;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .__recap-total-order {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .__recap-total-item-and-price-con {
+    padding: 0px 3%;
+  }
+}

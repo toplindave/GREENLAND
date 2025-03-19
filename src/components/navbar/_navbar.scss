@@ -10,6 +10,22 @@
       img {
         width: 111px;
         height: 56px;
+        @include xl {
+          width: 111px;
+          height: 56px;
+        }
+        @include pad-pro {
+          width: 105px;
+          height: 50px;
+        }
+        @include md {
+          width: 111px;
+          height: 56px;
+        }
+        @include sm {
+          width: 111px;
+          height: 56px;
+        }
       }
     }
     .__search-input {
@@ -19,6 +35,12 @@
       outline: none;
       border: 1px solid map-get($primarycolors, primary);
       border-radius: 5px;
+      @include xl {
+        width: 40%;
+      }
+      @include pad-pro {
+        width: 50%;
+      }
     }
     .__basket {
       cursor: pointer;
@@ -29,6 +51,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        @include xl {
+          height: 13px;
+          width: 13px;
+        }
       }
     }
   }
@@ -37,22 +63,61 @@
     padding-bottom: 9px;
     border-top: 1px solid map-get($secondarycolors, secondary-3);
     border-bottom: 1px solid map-get($secondarycolors, secondary-3);
+    @include lg {
+      display: flex;
+      justify-content: end;
+    }
+    .__menu-btn {
+      height: 20px;
+      width: 20px;
+      display: none;
+      @include lg {
+        display: block;
+      }
+    }
+    .__nav-down-menu-con {
+      display: none;
+      @include lg {
+        display: block;
+        background: #46553b;
+      }
+    }
     .__browse-all-product {
       border-radius: 5px;
-      padding: 9px 20px;
+      // padding: 9px 1.5%;
       gap: 4%;
       width: 15%;
+      height: 30px;
       outline: none;
       border: none;
       cursor: pointer;
+      @include pad-pro {
+        width: 20%;
+      }
+      @include lg {
+        display: none;
+      }
       svg {
         width: 15px;
         height: 15px;
         fill: map-get($whitecolors, white-1);
+        @include pad-pro {
+          width: 12px;
+          height: 12px;
+        }
       }
     }
     .__navigation {
       width: 40%;
+      @include xl {
+        width: 50%;
+      }
+      @include pad-pro {
+        width: 55%;
+      }
+      @include lg {
+        display: none;
+      }
     }
     .__hot-deal {
       outline: none;
@@ -60,13 +125,25 @@
       border-radius: 5px;
       cursor: pointer;
       gap: 4%;
-      width: 10%;
-      padding: 9px 20px;
+      width: 9%;
+      height: 30px;
+
+      // padding: 9px 20px;
       text-align: center;
+      @include pad-pro {
+        width: 12%;
+      }
+      @include lg {
+        display: none;
+      }
       svg {
         width: 15px;
         height: 15px;
         fill: map-get($secondarycolors, secondary-info);
+        @include pad-pro {
+          width: 12px;
+          height: 12px;
+        }
       }
     }
   }

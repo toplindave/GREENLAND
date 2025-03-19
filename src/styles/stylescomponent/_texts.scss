@@ -1,13 +1,16 @@
 .big-text {
   font-size: 200px;
   @include sm {
-    font-size: 20px;
+    font-size: 50px;
   }
   @include md {
-    font-size: 30px;
+    font-size: 80px;
   }
   @include lg {
-    font-size: 40px;
+    font-size: 100px;
+  }
+  @include pad-pro {
+    font-size: 100px;
   }
   @include xl {
     font-size: 120px;
@@ -22,6 +25,9 @@
     font-size: 12px;
   }
   @include lg {
+    font-size: 14px;
+  }
+  @include pad-pro {
     font-size: 14px;
   }
   @include xl {
@@ -39,6 +45,9 @@
   @include lg {
     font-size: 18px;
   }
+  @include pad-pro {
+    font-size: 18px;
+  }
   @include xl {
     font-size: 20px;
   }
@@ -52,6 +61,9 @@
     font-size: 14px;
   }
   @include lg {
+    font-size: 16px;
+  }
+  @include pad-pro {
     font-size: 16px;
   }
   @include xl {
@@ -70,6 +82,9 @@
   @include lg {
     font-size: 18px;
   }
+  @include pad-pro {
+    font-size: 18px;
+  }
   @include xl {
     font-size: 20px;
   }
@@ -83,6 +98,9 @@
     font-size: 9px;
   }
   @include lg {
+    font-size: 11px;
+  }
+  @include pad-pro {
     font-size: 11px;
   }
   @include xl {
@@ -116,6 +134,11 @@
     line-height: 40px;
     letter-spacing: 0.7px;
   }
+  @include pad-pro {
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0.7px;
+  }
   @include xl {
     font-size: 38px;
     line-height: 58px;
@@ -131,6 +154,9 @@
     font-size: 24px;
   }
   @include lg {
+    font-size: 28px;
+  }
+  @include pad-pro {
     font-size: 28px;
   }
   @include xl {
@@ -149,6 +175,9 @@
     font-size: 9px;
   }
   @include lg {
+    font-size: 10px;
+  }
+  @include pad-pro {
     font-size: 10px;
   }
   @include xl {

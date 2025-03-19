@@ -3,7 +3,8 @@ $breakpoints: (
   "sm": 480px,
   "md": 720px,
   "lg": 960px,
-  "xl": 1200px,
+  "pad-pro": 1024px,
+  "xl": 1280px,
 );
 
 @mixin xs {
@@ -26,8 +27,13 @@ $breakpoints: (
     @content;
   }
 }
+@mixin pad-pro {
+  @media screen and (max-width: map-get($breakpoints, "pad-pro")) and (min-width: map-get($breakpoints, "lg")) {
+    @content;
+  }
+}
 @mixin xl {
-  @media screen and (max-width: map-get($breakpoints, "xl")) and (min-width: map-get($breakpoints, "lg")) {
+  @media screen and (max-width: map-get($breakpoints, "xl")) and (min-width: map-get($breakpoints, "pad-pro")) {
     @content;
   }
 }
