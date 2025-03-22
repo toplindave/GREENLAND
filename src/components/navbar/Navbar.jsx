@@ -14,6 +14,8 @@ function Navbar() {
     setShowcart((prev) => !prev);
   }
   console.log(showCart);
+
+
   return (
     <>
       <div className=" __navbarr  ">
@@ -34,12 +36,19 @@ function Navbar() {
           </button>
         </div>
         <div className="__nav-down display-f justify-space-between align-center container">
-          <button className="__browse-all-product bg-primary display-f  align-center">
-            <Browse />
-            <p className="text-white-1 font-weight-medium normal-font-text">
-              Browse All Products
-            </p>
-          </button>
+          
+          <Link>          
+            <div className="__browse-all-product bg-primary display-f  align-center">
+              <Browse />
+              <p className="text-white-1 font-weight-semi normal-font-text">
+                Browse All Products
+              </p>
+            </div>
+
+          </Link>
+
+
+
           <div className="__navigation display-f justify-space-between align-center font-weight-semi p-text">
             <NavLink to="/">Home</NavLink>
             <NavLink to="/about">About</NavLink>
