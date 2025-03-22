@@ -5,7 +5,7 @@ import Ugwu from "./Ugu-Global-Food-Village.png";
 
 function CheckOut() {
   return (
-    <div className="__checkout-over-container display-f">
+    <div className="__checkout-over-container ">
       <div className="__checkout-left bg-normalwhite">
         <div className="__checkout-left-logo-con display-f justify-center">
           <img src={Logo} alt="logo" className="__checkout-logo" />
@@ -131,7 +131,7 @@ function CheckOut() {
       </div>
       <div className="__checkout-right bg-white-2">
         <div className="__checkout-product-con display-b">
-          <div className="__checkout-product-card display-f justify-space-between">
+          <div className="__checkout-product-card display-f justify-space-between align-center">
             <div className="__checkout-product-card-img-container bg-secondary-3">
               <img
                 src={Ugwu}

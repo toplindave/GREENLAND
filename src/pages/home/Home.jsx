@@ -5,8 +5,8 @@ import Products from "../../components/products/Products";
 import GreenlandWholesale from "../../components/greenlandWholesale/GreenlandWholesale";
 import FastAndReliable from "../../components/fastAndReliable/FastAndReliable";
 import WhyPickUp from "../../components/whyPickUp/WhyPickUp";
-import Footer from "../../components/footer/Footer";
-import Navbar from "../../components/navbar/Navbar";
+// import Footer from "../../components/footer/Footer";
+// import Navbar from "../../components/navbar/Navbar";
 
 function Home() {
   return (
@@ -61,7 +61,6 @@ function Home() {
           <WhyPickUp />
         </section>
       </div>
-      
     </div>
   );
 }

@@ -11,7 +11,7 @@ function BecomeCustomer() {
     setNextpage((prev) => !prev);
   }
   return (
-    <div className="__become-customer-page display-f">
+    <div className="__become-customer-page ">
       <div className="__become-customer-left ">
         <img
           src={GrassField}
@@ -39,6 +39,7 @@ function BecomeCustomer() {
           </p>
         </div>
       </div>
+
       {nextPage ? (
         <div className="__become-customer-right">
           <form action="" className="__become-customer-form">

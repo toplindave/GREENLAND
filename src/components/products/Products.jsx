@@ -11,6 +11,19 @@ function Products() {
     <div className="__products-container">
       {products.map((prod, index) => (
         <Product product={prod} key={index} />
+        // <div className="__product-card" key={index}>
+        //   <div className="__product-card-img-con">
+        //     <img src={prod.image} alt="pic" className="__product-card-img" />
+        //   </div>
+        //   <h1>{prod.title}</h1>
+        //   <div className="">
+        //     {prod.category.map((pro, index) => (
+        //       <div className="d" key={index}>
+        //         {pro.title} {pro.price}
+        //       </div>
+        //     ))}
+        //   </div>
+        // </div>
       ))}
     </div>
   );

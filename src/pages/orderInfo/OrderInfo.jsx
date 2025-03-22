@@ -9,7 +9,11 @@ function OrderInfo() {
       <div className="__order-info-logo-con display-f justify-center">
         <img src={Logo} alt="logo" className="__order-info-logo" />
       </div>
-      <OrderInformation />
+      <div className="__order-info-container-infomation-con display-f align-center justify-center">
+        <div className="__order-info-container-infomation">
+          <OrderInformation />
+        </div>
+      </div>
     </div>
   );
 }

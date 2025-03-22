@@ -2,11 +2,27 @@
   padding: 71px 2% 81px 2%;
   margin-top: 40px;
   margin-bottom: 121px;
-
+  @include md {
+    padding: 30px 8% 84px 8%;
+  }
+  @include sm {
+    padding: 30px 8% 84px 8%;
+  }
   .__whypickup-p {
     width: 53%;
     line-height: 24px;
     margin-bottom: 17px;
+    @include lg {
+      width: 70%;
+    }
+    @include md {
+      width: 100%;
+      line-height: 18px;
+    }
+    @include sm {
+      width: 100%;
+      line-height: 18px;
+    }
   }
   .__whypickup-h4 {
     margin-bottom: 30px;
@@ -19,6 +35,15 @@
     // background: gainsboro;
     row-gap: 25px;
     margin-bottom: 50px;
+    @include lg {
+      width: 73%;
+    }
+    @include md {
+      width: 100%;
+    }
+    @include sm {
+      width: 100%;
+    }
     .__whypickup-grid-card {
       //   background: teal;
       .__whypickup-grid-card-h4 {
@@ -33,5 +58,17 @@
     width: 20%;
     padding: 8px 0px;
     cursor: pointer;
+    @include lg {
+      padding: 6px 0px;
+      width: 40%;
+    }
+    @include md {
+      width: 100%;
+      padding: 6px 0px;
+    }
+    @include sm {
+      width: 100%;
+      padding: 6px 0px;
+    }
   }
 }
