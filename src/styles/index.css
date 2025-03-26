@@ -2626,6 +2626,47 @@ svg {
   }
 }
 
+.__product-details .__prod-detail-flex-con {
+  padding-top: 50px;
+}
+.__product-details .__prod-detail-flex-con .__prod-detail-flex-left {
+  width: 50%;
+  background: darkgray;
+  height: 100vh;
+}
+.__product-details .__prod-detail-flex-con .__prod-detail-flex-right {
+  width: 50%;
+  height: 100vh;
+}
+.__product-details .__prod-detail-flex-con .__prod-detail-flex-right .__prod-detail-flex-right-h2 {
+  margin-bottom: 15px;
+}
+.__product-details .__prod-detail-flex-con .__prod-detail-flex-right .__prod-detail-flex-right-price {
+  margin-bottom: 14px;
+}
+.__product-details .__prod-detail-flex-con .__prod-detail-flex-right .__prod-detail-flex-right-size-con {
+  padding-top: 8px;
+  padding-bottom: 19px;
+  border-top: 1px solid #e2e4dc;
+  border-bottom: 1px solid #e2e4dc;
+}
+.__product-details .__prod-detail-flex-con .__prod-detail-flex-right .__prod-detail-flex-right-size-con .__prod-detail-flex-right-size {
+  margin-bottom: 15px;
+}
+.__product-details .__prod-detail-flex-con .__prod-detail-flex-right .__prod-detail-flex-right-size-con .__prod-detail-size-flex-con {
+  width: 60%;
+}
+.__product-details .__prod-detail-flex-con .__prod-detail-flex-right .__prod-detail-flex-right-size-con .__prod-detail-size-flex-con .__product-detail-size-btn {
+  border-radius: 10px;
+  border: 1px solid #e2e4dc;
+  color: black;
+  padding: 5px 3%;
+}
+.__product-details .__prod-detail-flex-con .__prod-detail-flex-right .__prod-detail-flex-right-size-con .__prod-detail-size-flex-con .__size-btn-active {
+  border: 1px solid #00a200;
+  color: #00a200;
+}
+
 .container {
   padding-left: 8.5%;
   padding-right: 8.5%;

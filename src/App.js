@@ -10,6 +10,7 @@ import OrderInfo from "./pages/orderInfo/OrderInfo";
 // import ProductDetails from "./pages/productdetails/ProductDetails";
 // import Products from "./pages/products/Products";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ProductDetails from "./pages/productdetails/ProductDetails";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
 
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
+            <Route path="product-details" element={<ProductDetails />} />
           </Route>
           {/* <Route path="/" element={<Home />} /> */}
           <Route path="become-customer" element={<BecomeCustomer />} />
