@@ -1,33 +1,27 @@
 import React from "react";
 import "../../styles/index.scss";
+import { Link } from "react-router-dom";
+import Main from "../checkout/Ugu-Global-Food-Village.png";
 
 function ProductDetails() {
   return (
     <div className="__product-details container">
-      <div className="__prod-detail-flex-con display-f">
+      <div className="__prod-detail-flex-con display-f justify-space-between">
         <div className="__prod-detail-flex-left">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sequi
-          ipsa aut omnis impedit nam quis quidem vero laboriosam animi. Sint sit
-          laboriosam quod laborum voluptatibus, quis sunt cum, obcaecati
-          provident dolor similique, sed saepe aliquid? In dolores harum,
-          numquam facilis suscipit id impedit autem aliquid nihil a. Dolores
-          pariatur suscipit accusantium vitae quibusdam fugiat mollitia aut unde
-          aperiam sunt culpa magnam ea cum in vel, aspernatur nemo ipsum
-          commodi, a ab officia aliquam illo beatae atque? Ut, reiciendis
-          deleniti corrupti a dolores, soluta maiores temporibus, sed quas quo
-          labore? Laudantium vitae eos quibusdam fugit eius quas omnis quaerat
-          earum corporis sequi maiores optio quasi rem culpa aperiam aliquam
-          quidem nostrum ducimus ab aliquid iste magnam, nobis animi.
-          Voluptatibus consectetur quia, et alias laudantium neque id.
-          Exercitationem consequatur velit praesentium nulla assumenda aliquam
-          deserunt id voluptatum tenetur! Earum rerum recusandae, repellat
-          eveniet nihil necessitatibus ratione saepe distinctio ducimus vero
-          temporibus. Amet est laudantium saepe sequi aliquid aperiam quo
-          excepturi fugiat? Facere quam itaque suscipit, optio cumque
-          repellendus iure quis quaerat, architecto voluptatibus possimus
-          delectus excepturi iusto accusantium officiis sint, eligendi ipsa non!
-          Ipsa ex provident ut cumque officia repellat quo deleniti voluptas
-          neque ad iste exercitationem, dolorem nulla labore illo.
+          <div className="__main-image-display-con">
+            <img src={Main} alt=" main" className="__main-image" />
+          </div>
+          <div className="__main-image-sub-display-con display-f justify-space-between">
+            <div className="__main-image-sub-con">
+              <img src={Main} alt=" sub" className="__sub-image" />
+            </div>
+            <div className="__main-image-sub-con">
+              <img src={Main} alt=" sub" className="__sub-image" />
+            </div>
+            <div className="__main-image-sub-con">
+              <img src={Main} alt=" sub" className="__sub-image" />
+            </div>
+          </div>
         </div>
         <div className="__prod-detail-flex-right">
           <h2 className="__prod-detail-flex-right-h2 sub-title-text font-weight-medium">
@@ -58,7 +52,63 @@ function ProductDetails() {
               </button>
             </div>
           </div>
+          <div className="__prod-trans-container display-f justify-space-between">
+            <button className="__prod-trans-btn __prod-trans-btn-active bg-secondary">
+              <div className="__prod-trans-btn-svg"></div>
+              <h6 className="__prod-trans-btn-h6 p-text font-weight-semi text-normalblack">
+                Pickup
+              </h6>
+              <p className="__prod-trans-btn-p normal-font-text ">
+                Ready within 15 minutes
+              </p>
+            </button>
+            <button className="__prod-trans-btn bg-secondary">
+              <div className="__prod-trans-btn-svg"></div>
+              <h6 className="__prod-trans-btn-h6 p-text font-weight-semi text-normalblack">
+                Delivery
+              </h6>
+              <p className="__prod-trans-btn-p normal-font-text ">
+                As soon as 8am today
+              </p>
+            </button>
+          </div>
+          <p className="__pick-store p-text font-weight-semi text-normalblack">
+            Pick up at the store &nbsp;
+            <Link className="__get-location small-text text-hover-primary-3">
+              Get location
+            </Link>
+          </p>
+          <p className="__ready-in text-primary-3 small-text">
+            Ready within 15 minutes &nbsp;
+            <span className="__ready-in-span text-normalblack">
+              for pickup inside the store
+            </span>
+          </p>
+          <div className="__qty-btn-con display-f justify-space-between">
+            <p className="__qty-p">Quantity:</p>
+            <div className="__qty-manu-con display-f justify-space-between bg-secondary">
+              <button className="__qty-manu-btn bg-secondary">-</button>
+              <button className="__qty-manu-btn bg-secondary">2</button>
+              <button className="__qty-manu-btn bg-secondary">+</button>
+            </div>
+          </div>
+          <button className="__prod-add-to-basket-btn bg-primary-2 text-normalwhite p-text font-weight-semi">
+            Add to basket
+          </button>
         </div>
+      </div>
+      <div className="__prod-detail-description-con bg-secondary">
+        <h3 className="__prod-detail-description-h3 sub-title-text">
+          Description
+        </h3>
+        <p className="__prod-detail-description-p normal-font-text">
+          Our premium fresh Ugu leaves is packed with flavor and nutrients,
+          making it the perfect addition to meals. Grown with care, these
+          vibrant green leaves are tender, crisp, and bursting with goodness.
+          Whether you’re blending them into a smoothie, tossing them in a salad,
+          or sautéing them for a warm dish, Ugu brings a delicious and healthy
+          boost to your diet.
+        </p>
       </div>
     </div>
   );
