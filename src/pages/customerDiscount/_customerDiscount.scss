@@ -1,0 +1,222 @@
+.__discount-customer {
+  .__discount-nav {
+    padding-top: 36px;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    @include md {
+      padding-top: 20px;
+    }
+    @include sm {
+      padding-top: 20px;
+    }
+    .__nav-upper-discount {
+      padding-bottom: 30px;
+      @include md {
+        padding-bottom: 10px;
+      }
+      @include sm {
+        padding-bottom: 10px;
+      }
+      .__nav-logo {
+        img {
+          width: 111px;
+          height: 56px;
+          @include xl {
+            width: 111px;
+            height: 56px;
+          }
+          @include pad-pro {
+            width: 105px;
+            height: 50px;
+          }
+          @include lg {
+            width: 95px;
+            height: 50px;
+          }
+          @include md {
+            width: 60px;
+            height: 40px;
+          }
+          @include sm {
+            width: 60px;
+            height: 30px;
+          }
+        }
+      }
+      .__search-input {
+        width: 30%;
+        // height: 35px;
+        padding: 9px 15px;
+        outline: none;
+        border: 1px solid map-get($primarycolors, primary);
+        border-radius: 5px;
+        @include xl {
+          width: 40%;
+        }
+        @include pad-pro {
+          width: 50%;
+        }
+        @include lg {
+          width: 50%;
+        }
+        @include md {
+          width: 50%;
+          padding: 7px 10px;
+        }
+        @include sm {
+          width: 50%;
+          padding: 7px 10px;
+        }
+      }
+      .__basket {
+        cursor: pointer;
+        .__basket-span {
+          border-radius: 50%;
+          height: 15px;
+          width: 15px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          @include xl {
+            height: 13px;
+            width: 13px;
+          }
+          @include md {
+            height: 10px;
+            width: 10px;
+          }
+          @include sm {
+            height: 10px;
+            width: 10px;
+          }
+        }
+      }
+    }
+    .__nav-down-discount-con {
+      padding-top: 9px;
+      padding-bottom: 9px;
+      border-top: 1px solid map-get($secondarycolors, secondary-3);
+      border-bottom: 1px solid map-get($secondarycolors, secondary-3);
+      .__nav-down-discount {
+        width: 20%;
+        // background: darkblue;
+        @include lg {
+          width: 25%;
+        }
+        @include md {
+          width: 40%;
+        }
+        @include sm {
+          width: 40%;
+        }
+        .__nav-down-discount-signin,
+        .__nav-down-discount-become-cus {
+          @include md {
+            font-size: 9px;
+          }
+          @include sm {
+            font-size: 9px;
+          }
+        }
+      }
+    }
+  }
+  .__discount-customer-product {
+    padding-top: 22px;
+    padding-bottom: 193px;
+    @include md {
+      padding-bottom: 70px;
+    }
+    @include sm {
+      padding-bottom: 70px;
+    }
+    .__discount-customer-h1 {
+      margin-bottom: 40px;
+      @include md {
+        margin-bottom: 20px;
+      }
+      @include sm {
+        margin-bottom: 20px;
+      }
+    }
+    .__discount-customer-product-grid-con {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 7%;
+      row-gap: 3%;
+      @include pad-pro {
+        column-gap: 4%;
+      }
+      @include lg {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      @include md {
+        display: block;
+      }
+      @include sm {
+        display: block;
+      }
+      .__discount-customer-product-card {
+        // background: darkgray;
+        padding: 15px 7% 25px 7%;
+        border-radius: 10px;
+        border: 1px solid #e2e4dc;
+        @include md {
+          margin-bottom: 20px;
+        }
+        @include sm {
+          margin-bottom: 20px;
+        }
+        .__discount-customer-product-card-img-con {
+          margin-bottom: 35px;
+          .__discount-customer-product-card-img-sub-con {
+            width: 94px;
+            height: 92px;
+            border-radius: 50%;
+            .__discount-customer-product-card-img {
+              width: 100%;
+              height: 100%;
+              border-radius: 50%;
+            }
+          }
+        }
+        .__discount-customer-product-card-h2 {
+          text-align: center;
+          margin-bottom: 18px;
+        }
+        .__discount-customer-product-card-select-con {
+          margin-bottom: 20px;
+          .__discount-customer-product-card-select {
+            width: 38%;
+            outline: none;
+            border: 1px solid #e2e4dc;
+            background: #f1f1f1;
+            border-radius: 10px;
+            padding: 2% 1%;
+            @include pad-pro {
+              width: 45%;
+            }
+            option {
+              border: 1px solid #e2e4dc;
+              background: #f1f1f1;
+              outline: none;
+            }
+          }
+        }
+        .__discount-customer-product-card-price-h1 {
+          text-align: center;
+          margin-bottom: 25px;
+        }
+        .__discount-customer-product-card-btn {
+          width: 100%;
+          outline: none;
+          border: none;
+          cursor: pointer;
+          padding: 2% 0px;
+        }
+      }
+    }
+  }
+}

@@ -5,6 +5,8 @@ import NavLogo from "./navlogo.png";
 import "../../styles/index.scss";
 import { ReactComponent as Browse } from "./browse.svg";
 import { ReactComponent as Flame } from "./flame.svg";
+import { ReactComponent as Cancel } from "./times.svg";
+import { ReactComponent as Menu } from "./menu.svg";
 import Cart from "../../pages/cart/Cart";
 
 function Navbar() {
@@ -57,7 +59,7 @@ function Navbar() {
             <NavLink to="/" className=" text-hover-primary-1">
               Instant delivery
             </NavLink>
-            <NavLink to="/" className=" text-hover-primary-1">
+            <NavLink to="/wholesale-program" className=" text-hover-primary-1">
               Wholesale program
             </NavLink>
           </div>
@@ -65,16 +67,18 @@ function Navbar() {
             <Flame />
             <p>Hot Deals</p>
           </button>
-          <div
-            className="__menu-btn-con bg-primary-1"
-            onClick={toogleMenu}></div>
+          <div className="__menu-btn-con " onClick={toogleMenu}>
+            <Menu />
+          </div>
         </div>
       </div>
       {showMenu && (
         <div className="__nav-down-menu-con bg-secondary-2">
           <div
-            className="__cancel-toogle-btn-con bg-primary-3 display-f justify-flex-end"
-            onClick={toogleMenu}></div>
+            className="__cancel-toogle-btn-con  display-f justify-flex-end"
+            onClick={toogleMenu}>
+            <Cancel />
+          </div>
           <div className="__menu-sub-con display-f ">
             <button className="__browse-all-product-menu bg-primary display-f justify-space-around align-center">
               <Browse />
@@ -98,7 +102,7 @@ function Navbar() {
                 <NavLink to="/">Instant delivery</NavLink>
               </li>
               <li>
-                <NavLink to="/">Wholesale program</NavLink>
+                <NavLink to="/wholesale-program">Wholesale program</NavLink>
               </li>
             </ul>
           </div>

@@ -1,0 +1,181 @@
+.__contact-con {
+  padding-top: 71px;
+  padding-bottom: 139px;
+  display: flex;
+  justify-content: space-between;
+  @include lg {
+    padding-top: 40px;
+  }
+  @include md {
+    padding-top: 50px;
+    display: block;
+    position: relative;
+  }
+  @include sm {
+    padding-top: 50px;
+    display: block;
+    position: relative;
+  }
+  .__contact-left {
+    width: 52%;
+    @include pad-pro {
+      width: 65%;
+    }
+    @include lg {
+      width: 70%;
+    }
+    @include md {
+      width: 100%;
+    }
+    @include sm {
+      width: 100%;
+    }
+    // background: darkgray;
+    .__contact-h1 {
+      margin-bottom: 25px;
+    }
+    .__contact-p {
+      margin-bottom: 9px;
+    }
+    .__contact-mail {
+      margin-bottom: 6px;
+    }
+    .__contact-form {
+      margin-top: 34px;
+      .__contact-form-h4 {
+        margin-bottom: 30px;
+      }
+      .__contact-form-input-label {
+        margin-bottom: 10px;
+      }
+      .__contact-form-input {
+        margin-bottom: 20px;
+        background: none;
+        width: 100%;
+        padding: 1% 0px;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid #0000003c;
+        &::placeholder {
+          opacity: 0.3;
+        }
+        &:focus,
+        &:hover {
+          border-bottom: 1px solid #7a9a1b;
+        }
+      }
+      .__contact-form-text-area {
+        width: 100%;
+        background: none;
+        height: 161px;
+        margin-bottom: 30px;
+        border: 1px solid #0000003c;
+        outline: none;
+        &:focus,
+        &:hover {
+          border: 1px solid #7a9a1b;
+        }
+      }
+      .__contact-form-send-btn {
+        background: none;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        // background: #7a9a1b;
+        width: 50%;
+        opacity: 0.5;
+
+        &:hover {
+          opacity: 1;
+        }
+        @include lg {
+          width: 60%;
+        }
+        @include md {
+          width: 60%;
+        }
+        @include sm {
+          width: 60%;
+        }
+        svg {
+          width: 30px;
+          height: 30px;
+          @include md {
+            width: 25px;
+          }
+          @include sm {
+            width: 25px;
+          }
+        }
+      }
+    }
+  }
+  .__contact-right {
+    width: 10%;
+    height: 245px;
+    padding: 10px 1%;
+    @include pad-pro {
+      padding: 10px 2%;
+      width: 15%;
+    }
+    @include lg {
+      padding: 10px 2%;
+      width: 15%;
+    }
+    @include md {
+      width: 82%;
+      height: 35px;
+      display: flex;
+      justify-content: space-between;
+      //   align-items: center;
+      border-radius: 10px;
+      padding-left: 3%;
+      padding-right: 3%;
+      position: fixed;
+      top: 110px;
+    }
+    @include sm {
+      width: 82%;
+      height: 35px;
+      display: flex;
+      justify-content: space-between;
+      //   align-items: center;
+      border-radius: 10px;
+      padding-left: 3%;
+      padding-right: 3%;
+      position: fixed;
+      top: 110px;
+    }
+
+    .__contact-right-p {
+      margin-bottom: 20px;
+      @include md {
+        font-size: 9px;
+      }
+      @include sm {
+        font-size: 9px;
+      }
+    }
+    ul {
+      @include md {
+        display: flex;
+        width: 40%;
+        justify-content: space-between;
+      }
+      @include sm {
+        display: flex;
+        width: 40%;
+        justify-content: space-between;
+      }
+      .__contact-social {
+        margin-bottom: 10px;
+        @include md {
+          font-size: 9px;
+        }
+        @include sm {
+          font-size: 9px;
+        }
+      }
+    }
+  }
+}

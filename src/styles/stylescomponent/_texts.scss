@@ -115,34 +115,28 @@
   line-height: 32px;
   letter-spacing: 0.34px;
 }
-.care-header {
-  font-size: 46px;
-  line-height: 66px;
-  letter-spacing: 0.92px;
+.contact-header {
+  font-size: 54px;
+  line-height: 65px;
   @include sm {
     font-size: 20px;
     line-height: 25px;
-    letter-spacing: 0.7px;
   }
   @include md {
     font-size: 25px;
     line-height: 30px;
-    letter-spacing: 0.6px;
   }
   @include lg {
-    font-size: 30px;
+    font-size: 36px;
     line-height: 40px;
-    letter-spacing: 0.7px;
   }
   @include pad-pro {
-    font-size: 30px;
+    font-size: 40px;
     line-height: 40px;
-    letter-spacing: 0.7px;
   }
   @include xl {
-    font-size: 38px;
+    font-size: 45px;
     line-height: 58px;
-    letter-spacing: 0.92px;
   }
 }
 .faq-header {
@@ -165,6 +159,21 @@
 }
 .text-s-18 {
   font-size: 18px;
+  @include sm {
+    font-size: 10px;
+  }
+  @include md {
+    font-size: 10px;
+  }
+  @include lg {
+    font-size: 13px;
+  }
+  @include pad-pro {
+    font-size: 15px;
+  }
+  @include xl {
+    font-size: 17px;
+  }
 }
 .small-text {
   font-size: $font-size-sm; // 12px

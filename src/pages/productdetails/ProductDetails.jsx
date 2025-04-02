@@ -2,6 +2,8 @@ import React from "react";
 import "../../styles/index.scss";
 import { Link } from "react-router-dom";
 import Main from "../checkout/Ugu-Global-Food-Village.png";
+import { ReactComponent as Houses } from "./home2.svg";
+import { ReactComponent as Truck } from "./truck.svg";
 
 function ProductDetails() {
   return (
@@ -54,7 +56,9 @@ function ProductDetails() {
           </div>
           <div className="__prod-trans-container display-f justify-space-between">
             <button className="__prod-trans-btn __prod-trans-btn-active bg-secondary">
-              <div className="__prod-trans-btn-svg"></div>
+              <div className="__prod-trans-btn-svg">
+                <Houses />
+              </div>
               <h6 className="__prod-trans-btn-h6 p-text font-weight-semi text-normalblack">
                 Pickup
               </h6>
@@ -63,7 +67,9 @@ function ProductDetails() {
               </p>
             </button>
             <button className="__prod-trans-btn bg-secondary">
-              <div className="__prod-trans-btn-svg"></div>
+              <div className="__prod-trans-btn-svg">
+                <Truck />
+              </div>
               <h6 className="__prod-trans-btn-h6 p-text font-weight-semi text-normalblack">
                 Delivery
               </h6>

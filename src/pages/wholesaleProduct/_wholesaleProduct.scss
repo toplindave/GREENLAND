@@ -1,0 +1,156 @@
+.__wholesale-product-con {
+  padding-top: 71px;
+  padding-bottom: 187px;
+  @include lg {
+    padding-top: 50px;
+    padding-bottom: 150px;
+  }
+  @include md {
+    padding-top: 30px;
+    padding-bottom: 90px;
+  }
+  @include sm {
+    padding-top: 30px;
+    padding-bottom: 90px;
+  }
+  .__wholesale-product-intro {
+    border-bottom: 1px solid #00000062;
+    margin-bottom: 30px;
+    .__wholesale-product-h1 {
+      margin-bottom: 30px;
+      width: 55%;
+      @include lg {
+        width: 65%;
+      }
+      @include md {
+        width: 100%;
+      }
+      @include sm {
+        width: 100%;
+      }
+    }
+    .__wholesale-product-p {
+      width: 55%;
+      margin-bottom: 30px;
+      opacity: 0.6;
+      @include lg {
+        width: 70%;
+      }
+      @include md {
+        width: 100%;
+      }
+      @include sm {
+        width: 100%;
+      }
+    }
+    .__wholesale-product-intro-btn {
+      margin-bottom: 74px;
+      width: 20%;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+      padding: 8px 0px;
+      cursor: pointer;
+      @include lg {
+        width: 30%;
+      }
+      @include md {
+        width: 40%;
+      }
+      @include sm {
+        width: 40%;
+      }
+    }
+  }
+  .__why-whole-sale-con {
+    @include md {
+      display: block;
+    }
+    @include sm {
+      display: block;
+    }
+    .__why-whole-sale-h1 {
+      width: 40%;
+      @include pad-pro {
+        width: 50%;
+      }
+      @include lg {
+        width: 50%;
+      }
+      @include md {
+        width: 80%;
+        margin-bottom: 30px;
+      }
+      @include sm {
+        width: 80%;
+        margin-bottom: 30px;
+      }
+    }
+    .__why-whole-sale-faq-con {
+      width: 48%;
+      @include md {
+        width: 100%;
+      }
+      @include sm {
+        width: 100%;
+      }
+      .__why-whole-sale-faq-parent-con {
+        margin-bottom: 20px;
+        .__why-whole-sale-faq-parent {
+          margin-bottom: 10px;
+          padding: 2% 4%;
+          border-radius: 10px;
+          cursor: pointer;
+          .__why-whole-sale-faq-parent-svg-con {
+            width: 25px;
+            height: 25px;
+            svg {
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+        .__why-whole-sale-faq-child {
+          margin-bottom: 10px;
+          padding: 2% 4%;
+          border-radius: 10px;
+          line-height: 21px;
+          @include md {
+            line-height: 12px;
+          }
+          @include sm {
+            line-height: 12px;
+          }
+        }
+      }
+    }
+    .__get-started-btn-con {
+      margin-top: 99px;
+      @include md {
+        margin-top: 50px;
+      }
+      @include sm {
+        margin-top: 50px;
+      }
+      .__get-started-btn {
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        width: 40%;
+        padding: 1% 0px;
+        cursor: pointer;
+        @include lg {
+          width: 60%;
+        }
+        @include md {
+          width: 80%;
+          padding: 2% 0px;
+        }
+        @include sm {
+          width: 80%;
+          padding: 2% 0px;
+        }
+      }
+    }
+  }
+}

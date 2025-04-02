@@ -2,7 +2,7 @@
   .__home-intro {
     // background: gray;
     padding-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 45px;
     .__home-intro-left {
       width: 55%;
       @include pad-pro {
@@ -126,6 +126,14 @@
           height: 100%;
           //   display: none;
         }
+      }
+    }
+  }
+  .__featured-product-con {
+    .__featured-product-sub-con {
+      margin-bottom: 10px;
+      .__featured-product-h4 {
+        cursor: pointer;
       }
     }
   }

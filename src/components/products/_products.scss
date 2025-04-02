@@ -1,6 +1,19 @@
 .__products-container {
-  display: flex;
-  flex-wrap: wrap;
-
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2%;
+  row-gap: 3%;
+  padding-bottom: 61px;
+  // background: darkgray;
+  @include lg {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3%;
+    row-gap: 3%;
+  }
+  @include md {
+    display: block;
+  }
+  @include sm {
+    display: block;
+  }
 }

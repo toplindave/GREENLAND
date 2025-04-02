@@ -5,7 +5,6 @@ import "../../styles/index.scss";
 
 function Product({ product }) {
   const { dispatch } = useContext(CartContext);
-  console.log(product);
   return (
     <div className="__product-container">
       <div className="__product-img-container">
@@ -25,7 +24,7 @@ function Product({ product }) {
                   {pro.title}
                 </p>
                 <p className="__product-dowm-sec-category-price text-secondary-info smallest-text">
-                  {pro.price}
+                  #{pro.price}
                 </p>
               </div>
             ))}

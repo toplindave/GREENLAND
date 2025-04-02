@@ -7,6 +7,21 @@
     width: 97px;
     height: 78px;
     background: teal;
+    @include pad-pro {
+      width: 88px;
+    }
+    @include lg {
+      width: 70px;
+      height: 70px;
+    }
+    @include md {
+      width: 70px;
+      height: 70px;
+    }
+    @include sm {
+      width: 70px;
+      height: 70px;
+    }
   }
   .__cart-product-card-details {
     width: 65%;

@@ -1,0 +1,45 @@
+.__non-discounted-con {
+  padding-top: 71px;
+  padding-bottom: 152px;
+  @include lg {
+    padding-top: 30px;
+    padding-bottom: 100px;
+  }
+  @include md {
+    padding-top: 20px;
+    padding-bottom: 80px;
+  }
+  @include sm {
+    padding-top: 20px;
+    padding-bottom: 80px;
+  }
+  .__non-discounted-h1 {
+    margin-bottom: 40px;
+    @include lg {
+      margin-bottom: 20px;
+    }
+    @include md {
+      margin-bottom: 15px;
+    }
+    @include sm {
+      margin-bottom: 15px;
+    }
+  }
+  .__non-discounted-grid-con {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2%;
+    row-gap: 3%;
+    @include lg {
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 3%;
+      row-gap: 3%;
+    }
+    @include md {
+      display: block;
+    }
+    @include sm {
+      display: block;
+    }
+  }
+}

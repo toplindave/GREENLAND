@@ -12,6 +12,7 @@ function Home() {
   return (
     <div className="__home-page ">
       {/* <Navbar /> */}
+
       <div className="container">
         <div className="__home-intro display-f justify-space-between">
           <div className="__home-intro-left">
@@ -44,10 +45,14 @@ function Home() {
             </div>
           </div>
         </div>
-        <section className="__featured-product">
-          <div className=" display-f justify-space-between">
-            <h1 className="">Featured products</h1>
-            <h4 className="">View All</h4>
+        <section className="__featured-product-con">
+          <div className="__featured-product-sub-con display-f justify-space-between">
+            <h1 className="__featured-product-h1 sub-title-text text-normalblack font-weight-semi">
+              Featured products
+            </h1>
+            <h4 className="__featured-product-h4 p-text text-normalblack font-weight-semi">
+              View All
+            </h4>
           </div>
           <Products />
         </section>

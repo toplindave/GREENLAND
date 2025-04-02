@@ -1,13 +1,20 @@
 .__product-container {
-  margin-bottom: 30px;
-  margin-top: 40px;
+  // margin-bottom: 30px;
+  // margin-top: 40px;
+  @include md {
+    margin-bottom: 30px;
+  }
+  @include sm {
+    margin-bottom: 30px;
+  }
   .__product-img-container {
-    width: 350px;
+    // width: 350px;
+    width: 100%;
     height: 200px;
     background: teal;
     .__product-img {
-      width: 350px;
-      height: 200px;
+      width: 100%;
+      height: 100%;
     }
   }
   .__product-dowm-sec {

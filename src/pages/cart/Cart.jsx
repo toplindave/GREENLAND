@@ -2,6 +2,8 @@ import React, { useContext } from "react";
 import { CartContext } from "../../feature/CartContextProvider";
 import CartProduct from "../../components/cartProduct/CartProduct";
 // import { totalItem, totalPrice } from "../../feature/CartReducer";
+import { ReactComponent as Cancel } from "../../components/navbar/times.svg";
+
 import "../../styles/index.scss";
 
 function Cart({ displayCart }) {
@@ -18,7 +20,7 @@ function Cart({ displayCart }) {
           <p
             className="__cart-basket-cancel-btn text-normalwhite"
             onClick={displayCart}>
-            X
+            <Cancel />
           </p>
         </div>
         {cart.length === 0 ? (
